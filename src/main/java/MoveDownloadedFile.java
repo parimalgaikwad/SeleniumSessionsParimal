@@ -1,5 +1,3 @@
-@@ -0,0 +1,31 @@
-package session;
 
 import java.io.IOException;
 import java.nio.file.Files;
