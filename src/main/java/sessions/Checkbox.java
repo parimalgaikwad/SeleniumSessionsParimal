@@ -1,3 +1,4 @@
+package sessions;
 
 
 import java.util.concurrent.TimeUnit;
@@ -29,5 +30,6 @@ public class Checkbox {
 		checkbox.click();
 		Boolean statusAfterClick = checkbox.isSelected();
 		System.out.println(statusAfterClick);
-		driver.close();	}
+driver.close();
+	}
 }

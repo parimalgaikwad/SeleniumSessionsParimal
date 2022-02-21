@@ -1,3 +1,5 @@
+package sessions;
+
 
 
 import java.util.concurrent.TimeUnit;
@@ -6,12 +8,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Checkbox {
+public class ActionsMouseOver {
 
+	
 	WebDriver driver;
 
 	@Test
@@ -20,14 +24,24 @@ public class Checkbox {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.navigate().to("https://chercher.tech/practice/explicit-wait-sample-selenium-webdriver");
+		driver.navigate().to("https://www.way2automation.com/");
 		driver.manage().window().maximize();
 
-		WebElement checkbox = driver.findElement(By.xpath("//input[@type='checkbox']"));  // to click checkbox
-		Boolean statusBeforeClick = checkbox.isSelected();
-		System.out.println(statusBeforeClick);
-		checkbox.click();
-		Boolean statusAfterClick = checkbox.isSelected();
-		System.out.println(statusAfterClick);
-		driver.close();	}
+		WebElement resources = driver.findElement(By.xpath("//*[text()='Resources']"));
+		
+		Actions action = new Actions(driver);
+		action.moveToElement(resources).perform();
+		
+		
+		
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	
+	
+	}
 }
