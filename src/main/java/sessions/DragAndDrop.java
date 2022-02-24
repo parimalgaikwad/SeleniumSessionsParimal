@@ -1,6 +1,5 @@
 package sessions;
 
-
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -9,40 +8,42 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ActionsSlider {
+public class DragAndDrop {
+
 	WebDriver driver;
+
 	@Test
-	public void test() {
+	public void test() throws Exception {
 
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.navigate().to("https://jqueryui.com/slider/");
+		driver.navigate().to("https://jqueryui.com/droppable/");
 		driver.manage().window().maximize();
-		WebDriverWait wait = new WebDriverWait(driver,10);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 
 		driver.switchTo().frame(0);
-		WebElement mainSlider  = driver.findElement(By.xpath("//*[@id='slider']"));;
-		WebElement slider = driver.findElement(By.xpath("//*[@id='slider']/span"));
+
+		WebElement draggable = driver.findElement(By.id("draggable"));
+		WebElement droppable = driver.findElement(By.id("droppable"));
 		Actions action = new Actions(driver);
-		action.dragAndDropBy(slider, mainSlider.getSize().width/2, 0).perform();
-//		action.dra
+
+		action.dragAndDrop(draggable, droppable).perform();    //Basic command for drag and drop
 		
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		
-	
-	
+		
+		// if normal drag and drop command does not work try option given below
+		action.clickAndHold(draggable).pause(Duration.ofSeconds(5)).moveToElement(droppable)
+				.pause(Duration.ofSeconds(5)).release().perform();
+		action.clickAndHold(draggable).perform();
+		
+		Thread.sleep(5000);
+		driver.close();
 	}
 
 }
