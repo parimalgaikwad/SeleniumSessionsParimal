@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33795" started-at="2022-02-24T22:03:07 IST" finished-at="2022-02-24T22:03:41 IST">
+  <suite name="Default suite" duration-ms="23281" started-at="2022-02-28T15:27:41 IST" finished-at="2022-02-28T15:28:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33795" started-at="2022-02-24T22:03:07 IST" finished-at="2022-02-24T22:03:41 IST">
-      <class name="sessions.WindowHandling">
-        <test-method status="PASS" signature="test()[pri:0, instance:sessions.WindowHandling@10bbd20a]" name="test" duration-ms="33755" started-at="2022-02-24T22:03:07 IST" finished-at="2022-02-24T22:03:41 IST">
+    <test name="Default test" duration-ms="23281" started-at="2022-02-28T15:27:41 IST" finished-at="2022-02-28T15:28:04 IST">
+      <class name="sessions.Framehandling">
+        <test-method status="PASS" signature="test()[pri:0, instance:sessions.Framehandling@10bbd20a]" name="test" duration-ms="23205" started-at="2022-02-28T15:27:41 IST" finished-at="2022-02-28T15:28:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- sessions.WindowHandling -->
+      </class> <!-- sessions.Framehandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
