@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23281" started-at="2022-02-28T15:27:41 IST" finished-at="2022-02-28T15:28:04 IST">
+  <suite name="Default suite" duration-ms="18208" started-at="2022-03-02T15:42:45 IST" finished-at="2022-03-02T15:43:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23281" started-at="2022-02-28T15:27:41 IST" finished-at="2022-02-28T15:28:04 IST">
-      <class name="sessions.Framehandling">
-        <test-method status="PASS" signature="test()[pri:0, instance:sessions.Framehandling@10bbd20a]" name="test" duration-ms="23205" started-at="2022-02-28T15:27:41 IST" finished-at="2022-02-28T15:28:04 IST">
+    <test name="Default test" duration-ms="18208" started-at="2022-03-02T15:42:45 IST" finished-at="2022-03-02T15:43:03 IST">
+      <class name="sessions.DatePicker">
+        <test-method status="PASS" signature="test()[pri:0, instance:sessions.DatePicker@6895a785]" name="test" duration-ms="18164" started-at="2022-03-02T15:42:45 IST" finished-at="2022-03-02T15:43:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- sessions.Framehandling -->
+      </class> <!-- sessions.DatePicker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

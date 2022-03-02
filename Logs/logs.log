@@ -1,0 +1,4 @@
+2022-03-02 10:44:36,232  INFO [main] LoggerUsingLog4j:26 - Launching browser
+ 2022-03-02 10:44:41,323  INFO [main] LoggerUsingLog4j:30 - navigating to url
+ 2022-03-02 10:44:41,536  INFO [main] LoggerUsingLog4j:32 - Window maximized
+ 
