@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18208" started-at="2022-03-02T15:42:45 IST" finished-at="2022-03-02T15:43:03 IST">
+  <suite name="Suite" duration-ms="16580" started-at="2022-03-04T15:49:28 IST" finished-at="2022-03-04T15:49:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18208" started-at="2022-03-02T15:42:45 IST" finished-at="2022-03-02T15:43:03 IST">
-      <class name="sessions.DatePicker">
-        <test-method status="PASS" signature="test()[pri:0, instance:sessions.DatePicker@6895a785]" name="test" duration-ms="18164" started-at="2022-03-02T15:42:45 IST" finished-at="2022-03-02T15:43:03 IST">
+    <test name="Test" duration-ms="16580" started-at="2022-03-04T15:49:28 IST" finished-at="2022-03-04T15:49:44 IST">
+      <class name="sessions.TestngTest1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sessions.TestngTest1@4d95d2a2]" name="setup" is-config="true" duration-ms="4150" started-at="2022-03-04T15:49:28 IST" finished-at="2022-03-04T15:49:32 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- sessions.DatePicker -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openFacebook()[pri:0, instance:sessions.TestngTest1@4d95d2a2]" name="openFacebook" duration-ms="2200" started-at="2022-03-04T15:49:32 IST" finished-at="2022-03-04T15:49:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method status="PASS" signature="openGoogle()[pri:1, instance:sessions.TestngTest1@4d95d2a2]" name="openGoogle" duration-ms="1230" started-at="2022-03-04T15:49:34 IST" finished-at="2022-03-04T15:49:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sessions.TestngTest1@4d95d2a2]" name="tearDown" is-config="true" duration-ms="270" started-at="2022-03-04T15:49:35 IST" finished-at="2022-03-04T15:49:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sessions.TestngTest1 -->
+      <class name="sessions.TestngTest2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sessions.TestngTest2@53f65459]" name="setup" is-config="true" duration-ms="1645" started-at="2022-03-04T15:49:36 IST" finished-at="2022-03-04T15:49:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openInstagram()[pri:0, instance:sessions.TestngTest2@53f65459]" name="openInstagram" duration-ms="2666" started-at="2022-03-04T15:49:37 IST" finished-at="2022-03-04T15:49:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInstagram -->
+        <test-method status="PASS" signature="openYoutube()[pri:1, instance:sessions.TestngTest2@53f65459]" name="openYoutube" duration-ms="3896" started-at="2022-03-04T15:49:40 IST" finished-at="2022-03-04T15:49:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openYoutube -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sessions.TestngTest2@53f65459]" name="tearDown" is-config="true" duration-ms="436" started-at="2022-03-04T15:49:44 IST" finished-at="2022-03-04T15:49:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sessions.TestngTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

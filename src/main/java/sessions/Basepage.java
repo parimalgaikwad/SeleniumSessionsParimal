@@ -1,0 +1,36 @@
+package sessions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Basepage {
+	
+	WebDriver driver;
+
+	
+	@AfterClass
+	public void tearDown() {
+		System.out.println("test tear down");
+
+		driver.close();
+
+	}
+
+	@BeforeClass()
+	public void setup() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		System.out.println("test setup");
+		
+	}
+
+
+}
+

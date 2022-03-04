@@ -58,9 +58,13 @@ public class DatePicker {
 				count--;
 			}
 
-			wait.until(ExpectedConditions
-					.visibilityOf(driver.findElement(By.xpath("//*[@data-date='" + targetDay + "']")))).click();
+			
+//			wait.until(ExpectedConditions.visibilityOf(datepicker))
+			
+		WebElement day=	wait.until(ExpectedConditions
+					.visibilityOf(driver.findElement(By.xpath("//*[@data-date='" + targetDay + "']"))));
 
+			day.click();
 		}
 
 		if ((targetYear * 12 + targetMonth) < (currentYear * 12 + currentMonth)) {
@@ -73,7 +77,7 @@ public class DatePicker {
 			}
 
 			wait.until(ExpectedConditions
-					.visibilityOf(driver.findElement(By.xpath("//*[@data-date='" + targetDay + "']")))).click();
+					.visibilityOf(driver.findElement(By.xpath("//*[@data-date='"+targetDay+"']")))).click();
 			//*[@data-date='25']
 		}
 		
