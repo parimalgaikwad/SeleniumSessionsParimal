@@ -22,7 +22,7 @@ public class Basepage {
 
 	}
 
-	@BeforeClass()
+	@BeforeClass(alwaysRun=true)
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
