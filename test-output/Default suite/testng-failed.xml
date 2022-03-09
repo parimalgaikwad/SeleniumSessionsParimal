@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sessions.Screenshot">
+      <class name="sessions.TestngTest1">
         <methods>
-          <include name="test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="openGoogle"/>
+          <include name="openFacebook"/>
         </methods>
-      </class> <!-- sessions.Screenshot -->
+      </class> <!-- sessions.TestngTest1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

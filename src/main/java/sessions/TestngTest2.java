@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestngTest2 extends Basepage {
 
-	@Test
+	@Test(groups= {"regression","sanity"})
 	public void openInstagram() {
 
 		driver.navigate().to("https://www.instagram.com/?hl=en");

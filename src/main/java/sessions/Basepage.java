@@ -14,15 +14,15 @@ public class Basepage {
 	WebDriver driver;
 
 	
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void tearDown() {
 		System.out.println("test tear down");
 
-		driver.close();
+//		driver.close();
 
 	}
 
-	@BeforeClass(alwaysRun=true)
+	@BeforeClass(alwaysRun= true)
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
