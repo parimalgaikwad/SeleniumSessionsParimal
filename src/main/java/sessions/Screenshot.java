@@ -19,7 +19,7 @@ public class Screenshot {
 
 	
 
-	WebDriver driver;
+	static WebDriver driver;
 
 	@Test
 	public void test() throws Exception {
@@ -35,7 +35,7 @@ public class Screenshot {
 		captureScreenshot();
 	}
 	
-	public void captureScreenshot() {
+	public static void captureScreenshot() {
 		
 		File screenshot = 	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd_MM_yy_hh_mm_ss_");
