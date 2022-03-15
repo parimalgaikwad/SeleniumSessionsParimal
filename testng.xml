@@ -6,8 +6,7 @@
   <listener class-name="sessions.CustomListener"/>
 </listeners>
 
-	<test name="Test">
-	      <parameter name = "username" value="password"/>
+	<test thread-count="5" name="Test">
 	
 		<groups>
 			<run>
@@ -20,5 +19,6 @@
 
 		</classes>
 	</test> <!-- Test -->
+
 
 </suite> <!-- Suite -->

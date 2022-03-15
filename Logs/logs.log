@@ -1,4 +1,9 @@
-2022-03-02 10:44:36,232  INFO [main] LoggerUsingLog4j:26 - Launching browser
- 2022-03-02 10:44:41,323  INFO [main] LoggerUsingLog4j:30 - navigating to url
- 2022-03-02 10:44:41,536  INFO [main] LoggerUsingLog4j:32 - Window maximized
+2022-03-14 15:50:54,712  INFO [main] CustomListener:21 - openFacebook started
+ 2022-03-14 15:50:54,720  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-14 15:50:54,722  INFO [main] TestngTest1:28 - testuser
+ 2022-03-14 15:50:56,625  INFO [main] CustomListener:26 - openFacebook Test is passed
+ 2022-03-14 15:53:50,822  INFO [main] CustomListener:21 - openFacebook started
+ 2022-03-14 15:53:50,826  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-14 15:53:50,826  INFO [main] TestngTest1:28 - testuser
+ 2022-03-14 15:53:52,885  INFO [main] CustomListener:26 - openFacebook Test is passed
  

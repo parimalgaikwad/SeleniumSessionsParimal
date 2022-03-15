@@ -10,6 +10,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -26,6 +27,8 @@ public class Basepage {
 
 	public Basepage() {
 		
+		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\test\\resources\\Files\\Log4j.properties");
+
 		config = new Properties();
 		try {
 			config.load(new FileInputStream(
@@ -39,7 +42,7 @@ public class Basepage {
 	
 	
 	
-	@AfterClass(alwaysRun = true)
+//	@AfterClass(alwaysRun = true)
 	public void tearDown() {
 		System.out.println("test tear down");
 

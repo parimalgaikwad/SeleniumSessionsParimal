@@ -5,7 +5,6 @@
     <listener class-name="sessions.CustomListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="username" value="testUser"/>
     <groups>
       <run>
         <include name="regression"/>
@@ -14,9 +13,9 @@
     <classes>
       <class name="sessions.TestngTest1">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="openFacebook" invocation-numbers="0"/>
+          <include name="driverSetup"/>
+          <include name="openFacebook"/>
         </methods>
       </class> <!-- sessions.TestngTest1 -->
     </classes>
