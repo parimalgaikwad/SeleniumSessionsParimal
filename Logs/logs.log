@@ -6,4 +6,362 @@
  2022-03-14 15:53:50,826  INFO [main] TestngTest1:27 - https://www.facebook.com/
  2022-03-14 15:53:50,826  INFO [main] TestngTest1:28 - testuser
  2022-03-14 15:53:52,885  INFO [main] CustomListener:26 - openFacebook Test is passed
+ 2022-03-21 13:10:49,372  INFO [main] CustomListener:21 - openFacebook started
+ 2022-03-21 13:10:49,704  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-21 13:10:49,705  INFO [main] TestngTest1:28 - testuser
+ 2022-03-21 13:10:54,027  INFO [main] CustomListener:26 - openFacebook Test is passed
+ 2022-03-21 13:18:26,140  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:18:26,146  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-21 13:18:26,146  INFO [main] TestngTest1:28 - testuser
+ 2022-03-21 13:18:28,282  INFO [main] CustomListener:28 - openFacebook Test is passed
+ 2022-03-21 13:22:00,418  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:22:00,428  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-21 13:22:00,429  INFO [main] TestngTest1:28 - testuser
+ 2022-03-21 13:22:03,457  INFO [main] CustomListener:28 - openFacebook Test is passed
+ 2022-03-21 13:26:55,273  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:26:55,297  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-21 13:26:55,298  INFO [main] TestngTest1:28 - testuser
+ 2022-03-21 13:26:57,214  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:30:30,286  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:30:30,293  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:30:30,294  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-21 13:30:30,295  INFO [main] TestngTest1:28 - testuser
+ 2022-03-21 13:30:32,071  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:30:32,074  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:30:35,093  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:30:35,093  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:30:37,450  INFO [main] CustomListener:30 - openInstagram Test is passed
+ 2022-03-21 13:30:37,451  INFO [main] CustomListener:30 - openInstagram Test is passed
+ 2022-03-21 13:30:37,453  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:30:37,454  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:30:42,452  INFO [main] CustomListener:30 - openYoutube Test is passed
+ 2022-03-21 13:30:42,453  INFO [main] CustomListener:30 - openYoutube Test is passed
+ 2022-03-21 13:32:11,718  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:32:11,728  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:32:11,730  INFO [main] TestngTest1:27 - https://www.facebook.com/
+ 2022-03-21 13:32:11,731  INFO [main] TestngTest1:28 - testuser
+ 2022-03-21 13:32:13,518  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:32:13,521  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:32:16,198  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:32:16,201  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:32:18,493  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:32:19,179  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_32_19_Screenshot.png
+ 2022-03-21 13:32:19,181  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:32:19,688  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_32_19_Screenshot.png
+ 2022-03-21 13:32:19,704  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:32:19,705  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:32:24,481  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:32:25,898  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_32_25_Screenshot.png
+ 2022-03-21 13:32:25,901  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:32:26,421  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_32_26_Screenshot.png
+ 2022-03-21 13:34:22,519  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:34:22,533  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:34:22,535  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:34:22,536  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:34:24,618  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:34:24,622  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:34:27,202  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:34:27,202  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:34:29,475  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:34:30,216  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_34_30_Screenshot.png
+ 2022-03-21 13:34:30,216  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:34:30,672  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_34_30_Screenshot.png
+ 2022-03-21 13:34:30,682  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:34:30,682  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:34:36,846  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:34:37,908  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_34_37_Screenshot.png
+ 2022-03-21 13:34:37,911  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:34:38,712  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_34_38_Screenshot.png
+ 2022-03-21 13:37:14,039  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:37:14,052  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:37:14,055  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:37:14,056  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:37:16,211  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:37:16,214  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:37:19,012  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:37:19,013  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:37:20,918  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:37:21,623  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_37_21_Screenshot.png
+ 2022-03-21 13:37:21,623  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:37:22,066  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_37_22_Screenshot.png
+ 2022-03-21 13:37:22,079  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:37:22,080  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:37:26,164  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:37:27,229  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_37_27_Screenshot.png
+ 2022-03-21 13:37:27,233  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:37:28,142  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_37_28_Screenshot.png
+ 2022-03-21 13:39:27,280  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:39:27,285  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:39:27,287  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:39:27,288  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:39:29,022  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:39:29,028  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:39:31,631  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:39:31,631  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:39:33,530  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:39:34,314  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_39_34_Screenshot.png
+ 2022-03-21 13:39:34,314  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:39:34,746  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_39_34_Screenshot.png
+ 2022-03-21 13:39:34,753  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:39:34,754  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:39:39,376  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:39:40,603  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_39_40_Screenshot.png
+ 2022-03-21 13:39:40,605  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:39:41,305  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_39_41_Screenshot.png
+ 2022-03-21 13:40:43,948  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:40:43,951  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:40:43,952  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:40:43,952  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:40:45,858  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:40:45,863  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:40:47,511  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:40:47,512  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:40:49,446  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:40:49,923  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_40_49_Screenshot.png
+ 2022-03-21 13:40:49,924  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:40:50,587  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_40_50_Screenshot.png
+ 2022-03-21 13:40:50,611  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:40:50,612  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:40:51,803  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-21 13:40:51,803  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-21 13:40:52,877  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:40:52,877  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:40:52,901  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:40:52,901  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:42:53,483  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:42:53,489  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:42:53,492  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:42:53,493  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:42:55,371  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:42:55,375  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-21 13:42:55,383  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:42:55,384  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:42:57,073  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-21 13:42:57,075  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-21 13:42:59,732  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:42:59,733  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:43:01,968  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:43:02,577  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_43_02_Screenshot.png
+ 2022-03-21 13:43:02,577  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-21 13:43:03,087  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_43_03_Screenshot.png
+ 2022-03-21 13:43:03,101  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:43:03,102  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:43:08,338  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:43:30,835  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_43_30_Screenshot.png
+ 2022-03-21 13:43:30,836  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-21 13:43:31,701  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_43_31_Screenshot.png
+ 2022-03-21 13:46:44,638  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:46:44,645  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:46:44,646  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:46:46,602  INFO [main] CustomListener:29 - openFacebook Test is passed
+ 2022-03-21 13:46:46,611  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:46:48,652  INFO [main] CustomListener:29 - openGoogle Test is passed
+ 2022-03-21 13:46:51,393  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:46:53,043  INFO [main] CustomListener:36 - openInstagram Test is Failed
+ 2022-03-21 13:46:53,846  INFO [main] CustomListener:38 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_46_53_Screenshot.png
+ 2022-03-21 13:46:53,857  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:46:58,526  INFO [main] CustomListener:36 - openYoutube Test is Failed
+ 2022-03-21 13:46:59,719  INFO [main] CustomListener:38 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_46_59_Screenshot.png
+ 2022-03-21 13:48:48,059  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:48:48,068  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:48:48,069  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:48:49,876  INFO [main] CustomListener:29 - openFacebook Test is passed
+ 2022-03-21 13:48:49,883  INFO [main] CustomListener:36 - openFacebook Test is Failed
+ 2022-03-21 13:48:50,246  INFO [main] CustomListener:38 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_48_50_Screenshot.png
+ 2022-03-21 13:49:50,865  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:49:50,881  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:49:50,882  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:49:52,540  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-21 13:49:52,545  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:49:53,967  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-21 13:49:56,812  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:49:58,805  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-21 13:49:59,473  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_49_59_Screenshot.png
+ 2022-03-21 13:49:59,485  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:50:04,061  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-21 13:50:05,685  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_50_05_Screenshot.png
+ 2022-03-21 13:51:38,825  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:51:38,836  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:51:38,839  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:51:40,576  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-21 13:51:40,586  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:51:42,399  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-21 13:51:44,984  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:51:46,794  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-21 13:51:47,523  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_51_47_Screenshot.png
+ 2022-03-21 13:51:47,535  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:51:52,442  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-21 13:51:54,142  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_51_54_Screenshot.png
+ 2022-03-21 13:53:25,578  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:53:25,590  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:53:25,591  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:53:27,666  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-21 13:53:27,674  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:53:29,348  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-21 13:53:32,397  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:53:34,504  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-21 13:53:35,272  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_53_35_Screenshot.png
+ 2022-03-21 13:53:35,280  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:53:39,991  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-21 13:53:41,073  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_53_41_Screenshot.png
+ 2022-03-21 13:55:41,276  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:55:41,292  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:55:41,293  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:55:42,876  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-21 13:55:42,885  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:55:44,662  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-21 13:55:46,916  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:55:48,853  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-21 13:55:49,399  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_55_49_Screenshot.png
+ 2022-03-21 13:55:49,401  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:55:54,367  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-21 13:55:55,478  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_55_55_Screenshot.png
+ 2022-03-21 13:58:38,301  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 13:58:38,329  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 13:58:38,331  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 13:58:40,216  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-21 13:58:40,222  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 13:58:41,721  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-21 13:58:44,040  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 13:58:46,058  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-21 13:58:46,703  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_58_46_Screenshot.png
+ 2022-03-21 13:58:46,707  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 13:58:51,073  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-21 13:58:52,134  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_01_58_52_Screenshot.png
+ 2022-03-21 14:02:41,968  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-21 14:02:41,981  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-21 14:02:41,982  INFO [main] TestngTest1:21 - testuser
+ 2022-03-21 14:02:43,691  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-21 14:02:43,702  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-21 14:02:45,453  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-21 14:02:47,697  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-21 14:02:49,320  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-21 14:02:49,868  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_02_02_49_Screenshot.png
+ 2022-03-21 14:02:49,872  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-21 14:02:55,064  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-21 14:02:56,171  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\21_03_22_02_02_56_Screenshot.png
+ 2022-03-22 14:46:25,029  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 14:46:25,060  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 14:46:25,061  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 14:46:51,662  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-22 14:46:51,667  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 14:46:58,731  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-22 14:47:00,978  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 14:47:02,442  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-22 14:47:03,616  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_47_03_Screenshot.png
+ 2022-03-22 14:47:03,620  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 14:47:08,450  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-22 14:47:10,574  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_47_10_Screenshot.png
+ 2022-03-22 14:48:24,914  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 14:48:24,939  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 14:48:24,941  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 14:48:26,617  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-22 14:48:26,626  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 14:48:28,218  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-22 14:48:31,823  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 14:48:34,189  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-22 14:48:34,930  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_48_34_Screenshot.png
+ 2022-03-22 14:48:34,946  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 14:48:39,955  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-22 14:48:41,208  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_48_41_Screenshot.png
+ 2022-03-22 14:49:51,994  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 14:49:52,007  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 14:49:52,008  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 14:49:54,100  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-22 14:49:54,109  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 14:49:55,870  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-22 14:49:58,102  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 14:50:00,235  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-22 14:50:01,085  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_50_01_Screenshot.png
+ 2022-03-22 14:50:01,095  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 14:50:04,778  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-22 14:50:07,013  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_50_06_Screenshot.png
+ 2022-03-22 14:52:34,196  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 14:52:34,213  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 14:52:34,214  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 14:52:35,799  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-22 14:52:35,803  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 14:52:37,273  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-22 14:52:39,524  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 14:52:41,893  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-22 14:52:42,634  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_52_42_Screenshot.png
+ 2022-03-22 14:52:42,647  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 14:52:46,653  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-22 14:52:48,078  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_52_48_Screenshot.png
+ 2022-03-22 14:53:34,212  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 14:53:34,226  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 14:53:34,227  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 14:53:36,095  INFO [main] CustomListener:31 - openFacebook Test is passed
+ 2022-03-22 14:53:36,106  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 14:53:37,509  INFO [main] CustomListener:31 - openGoogle Test is passed
+ 2022-03-22 14:53:39,729  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 14:53:41,666  INFO [main] CustomListener:38 - openInstagram Test is Failed
+ 2022-03-22 14:53:42,361  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_53_42_Screenshot.png
+ 2022-03-22 14:53:42,364  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 14:53:46,819  INFO [main] CustomListener:38 - openYoutube Test is Failed
+ 2022-03-22 14:53:49,226  INFO [main] CustomListener:40 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_53_49_Screenshot.png
+ 2022-03-22 14:55:33,410  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 14:55:33,429  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 14:55:33,430  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 14:55:35,058  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-22 14:55:35,063  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 14:55:36,448  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-22 14:55:38,526  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 14:55:40,099  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-22 14:55:40,711  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_55_40_Screenshot.png
+ 2022-03-22 14:55:40,724  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 14:55:45,581  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-22 14:55:46,865  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_02_55_46_Screenshot.png
+ 2022-03-22 15:28:23,769  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 15:28:23,785  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 15:28:23,786  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 15:28:25,162  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-22 15:31:33,931  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 15:31:33,945  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 15:31:33,946  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 15:31:35,569  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-22 15:33:45,414  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 15:33:45,431  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 15:33:45,431  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 15:33:46,994  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-22 15:33:47,006  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 15:33:48,886  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-22 15:33:51,337  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 15:33:53,086  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-22 15:33:53,719  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_03_33_53_Screenshot.png
+ 2022-03-22 15:33:53,729  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 15:33:58,704  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-22 15:34:00,079  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_03_34_00_Screenshot.png
+ 2022-03-22 15:44:24,297  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 15:44:24,310  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 15:44:24,311  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 15:44:26,321  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-22 15:44:26,331  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 15:44:28,076  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-22 15:44:30,433  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 15:44:32,427  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-22 15:44:33,329  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_03_44_33_Screenshot.png
+ 2022-03-22 15:44:33,345  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 15:44:38,303  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-22 15:44:39,481  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_03_44_39_Screenshot.png
+ 2022-03-22 15:51:01,946  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 15:51:01,964  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 15:51:01,964  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 15:51:03,890  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-22 15:51:03,902  INFO [main] CustomListener:23 - openGoogle started
+ 2022-03-22 15:51:05,568  INFO [main] CustomListener:30 - openGoogle Test is passed
+ 2022-03-22 15:51:09,495  INFO [main] CustomListener:23 - openInstagram started
+ 2022-03-22 15:51:11,669  INFO [main] CustomListener:37 - openInstagram Test is Failed
+ 2022-03-22 15:51:12,489  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_03_51_12_Screenshot.png
+ 2022-03-22 15:51:12,505  INFO [main] CustomListener:23 - openYoutube started
+ 2022-03-22 15:51:18,037  INFO [main] CustomListener:37 - openYoutube Test is Failed
+ 2022-03-22 15:51:19,565  INFO [main] CustomListener:39 - Screenshot store at : C:\Users\hp\eclipse-workspace\SeleniumSessions\src\test\resources\images\22_03_22_03_51_19_Screenshot.png
+ 2022-03-22 15:57:59,010  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 15:57:59,022  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 15:57:59,022  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 15:58:00,938  INFO [main] CustomListener:30 - openFacebook Test is passed
+ 2022-03-22 16:02:30,196  INFO [main] CustomListener:23 - openFacebook started
+ 2022-03-22 16:02:30,211  INFO [main] TestngTest1:20 - https://www.facebook.com/
+ 2022-03-22 16:02:30,211  INFO [main] TestngTest1:21 - testuser
+ 2022-03-22 16:02:31,733  INFO [main] CustomListener:30 - openFacebook Test is passed
  

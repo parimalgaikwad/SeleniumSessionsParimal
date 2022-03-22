@@ -11,39 +11,26 @@ import org.testng.asserts.SoftAssert;
 
 //@Listeners(sessions.CustomListener.class)			
 
-
 public class TestngTest1 extends Basepage {
-    public 	Logger log = Logger.getLogger(TestngTest1.class);
+	public Logger log = Logger.getLogger(TestngTest1.class);
 
-	
-//	@Parameters("username")
-	@Test(groups={"regression"})
+	@Test(priority=0,groups= {"test"})
 	public void openFacebook() {
 
-
-		
-//		System.out.println();
-		
 		log.info(config.getProperty("url"));
-	log.info(config.getProperty("username"));
-		
+		log.info(config.getProperty("username"));
+
 		String url = config.getProperty("url");
 		driver.navigate().to(url);
-//		System.out.println("navigating to "+url);
-//		driver.manage().window().maximize();
-//		
-//		WebElement login = driver.findElement(By.xpath("//button[@name='login']"));
-//		Assert.assertEquals(url, driver.getCurrentUrl(),"check url");
-//		Assert.assertFalse(login.isDisplayed(),"check login button");
-//		
-		
+		Assert.assertTrue(true);
 	}
 
-//	@Test(priority=1,dependsOnMethods = { "openFacebook" },alwaysRun=true)
+	@Test(priority=1)
 	public void openGoogle() {
 		driver.navigate().to("https://www.google.com/");
 		driver.manage().window().maximize();
+		Assert.assertTrue(true);
+
 	}
 
-	
 }

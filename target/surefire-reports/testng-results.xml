@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5060" started-at="2022-03-22T10:32:27Z" finished-at="2022-03-22T10:32:32Z">
+    <groups>
+      <group name="test">
+        <method signature="TestngTest1.openFacebook()[pri:0, instance:sessions.TestngTest1@8f4ea7c]" name="openFacebook" class="sessions.TestngTest1"/>
+      </group> <!-- test -->
+    </groups>
+    <test name="Test" duration-ms="5060" started-at="2022-03-22T10:32:27Z" finished-at="2022-03-22T10:32:32Z">
+      <class name="sessions.TestngTest1">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:sessions.TestngTest1@8f4ea7c]" name="driverSetup" is-config="true" duration-ms="2776" started-at="2022-03-22T10:32:27Z" finished-at="2022-03-22T10:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="openFacebook()[pri:0, instance:sessions.TestngTest1@8f4ea7c]" name="openFacebook" duration-ms="1536" started-at="2022-03-22T10:32:30Z" finished-at="2022-03-22T10:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sessions.TestngTest1@8f4ea7c]" name="tearDown" is-config="true" duration-ms="698" started-at="2022-03-22T10:32:31Z" finished-at="2022-03-22T10:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sessions.TestngTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

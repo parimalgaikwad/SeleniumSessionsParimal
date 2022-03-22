@@ -13,17 +13,26 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 public class CustomListener extends Basepage implements ITestListener {
-    public 	Logger log = Logger.getLogger(CustomListener.class);
+	public Logger log = Logger.getLogger(CustomListener.class);
 
 	@Override
 	public void onTestStart(ITestResult result) {
-	log.info(result.getName() + " started");
+		log.info(result.getName() + " started");
+		test = report.startTest(result.getName());
+
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		log.info(result.getName() + " Test is passed");
+		String pathForScreenshot = Utils.captureScreenshot();
+
+		test.log(LogStatus.PASS, result.getName() + " extent Test is passed");
+		test.log(LogStatus.PASS, test.addScreenCapture(pathForScreenshot));
+
 
 	}
 
@@ -31,12 +40,21 @@ public class CustomListener extends Basepage implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		log.info(result.getName() + " Test is Failed");
 		String pathForScreenshot = Utils.captureScreenshot();
-		log.info("Screenshot store at : "+pathForScreenshot);
+		log.info("Screenshot store at : " + pathForScreenshot);
+		test.log(LogStatus.FAIL, result.getName() + " extent Test is Failed");
+		test.log(LogStatus.INFO, result.getThrowable().getMessage());
+		test.log(LogStatus.FAIL, test.addScreenCapture(pathForScreenshot));
+		
+//		test.addScreenCapture("")
+		
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
+		test.log(LogStatus.SKIP, result.getName() + " extent Test is skipped");
+		
+//		test.log(LogStatus., null);
 
 	}
 
@@ -55,8 +73,8 @@ public class CustomListener extends Basepage implements ITestListener {
 	@Override
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
-
+		report.endTest(test);
+		report.flush();
 	}
-
 
 }
